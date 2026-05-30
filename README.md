@@ -30,6 +30,7 @@ Validate the HTML and CSS code
 Publish the website in the given URL.
 
 ## PROGRAM
+## index.html
 ```html
 {% load static %}
 
@@ -61,6 +62,7 @@ Publish the website in the given URL.
 </body>
 </html>
 ```
+## style.css
 ```css
 body {
     margin: 0;
@@ -110,6 +112,7 @@ button:hover {
     background-color: #3730a3;
 }
 ```
+## gallery.js
 ```js
 const images = [
 {
