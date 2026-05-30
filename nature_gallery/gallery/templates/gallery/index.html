@@ -1,0 +1,29 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Image Gallery</title>
+
+    <link rel="stylesheet" href="{% static 'gallery/css/style.css' %}">
+</head>
+<body>
+
+<h1>Interactive Image Gallery</h1>
+
+<div class="gallery-container">
+    <img id="galleryImage" src="" alt="Nature Image">
+
+    <p id="imageTitle"></p>
+
+    <div class="buttons">
+        <button onclick="previousImage()">Previous</button>
+        <button onclick="nextImage()">Next</button>
+    </div>
+</div>
+
+<script src="{% static 'gallery/js/gallery.js' %}"></script>
+
+</body>
+</html>
